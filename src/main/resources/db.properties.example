@@ -1,0 +1,10 @@
+# Copy this file to db.properties and fill in values for your local machine.
+db.url=jdbc:sqlserver://localhost:1433;databaseName=FastFoodPreorder;encrypt=true;trustServerCertificate=true
+db.username=sa
+db.password=CHANGE_ME
+db.driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+db.pool.maximumPoolSize=20
+db.pool.minimumIdle=5
+db.pool.connectionTimeout=30000
+db.pool.idleTimeout=600000
